@@ -1,0 +1,16 @@
+# Site navigation links
+
+- title: 酒
+  url: /beer/
+  excerpt: "一些不经意间的随笔，还有思念"
+  image: ice-cream_b.jpg
+
+- title: 茶
+  url: /tea/
+  excerpt: "一些经意间的文字，还有画面"
+  image: tea_b.jpg
+
+- title: 雪糕
+  url: /ice-cream/
+  excerpt: "这里没有我的阴暗面"
+  image: tesar_01.png
