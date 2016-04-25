@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title: 泃河湾当家的玩耍的地方
+title: 陪你度过漫长岁月
 description:
 logo:  # 120x120 px default image used for Twitter summary card
 teaser: tesar01.png # 400x250 px default teaser image used in image archive grid
@@ -25,8 +25,8 @@ image:
 
 # Site owner
 owner:
-  name: i9527
-  email: juhetuf@163.com
+  name: 98ki
+  email: zpy@98ki.com
   twitter:
   google:
     ad-client:
