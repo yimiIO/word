@@ -3,45 +3,65 @@
   <url>
     <loc>/bear-jotting-1/</loc>
     <lastmod>2015-10-29T00:00:00+08:00</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>/jotting-1/</loc>
     <lastmod>2015-10-21T00:00:00+08:00</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>/jotting-2/</loc>
     <lastmod>2014-04-23T00:00:00+08:00</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>/jotting-3/</loc>
     <lastmod>2014-04-03T00:00:00+08:00</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>/jotting-4/</loc>
     <lastmod>2013-05-28T00:00:00+08:00</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>/jotting-5/</loc>
     <lastmod>2013-05-22T00:00:00+08:00</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>/jotting-6/</loc>
     <lastmod>2013-02-12T00:00:00+08:00</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>/jotting-7/</loc>
     <lastmod>2012-06-01T00:00:00+08:00</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>/beer/</loc>
+    <lastmod>2016-04-26T11:14:56+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>/ice-cream/</loc>
+    <lastmod>2016-04-26T11:14:56+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>/</loc>
+    <lastmod>2016-04-26T11:14:56+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>/tea/</loc>
+    <lastmod>2016-04-26T11:14:56+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>
