@@ -3,6 +3,7 @@ layout: article
 title: "《嫌疑人X》一些感想"
 description: "movie"
 category: beer
+comments:true
 tags: []
 image:
   feature:
