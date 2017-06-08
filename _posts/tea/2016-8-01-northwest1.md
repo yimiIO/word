@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "<西北chapter1> 即日启程"
+title: "西北chapter1 即日启程"
 description: "EverMemo"
 category: tea
 comments: true
