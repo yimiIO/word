@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "麻辣重庆"
+title: "<西北chapter1> 即日＆启程"
 description: "EverMemo"
 category: tea
 comments: true

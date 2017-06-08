@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "麻辣重庆"
+title: "<西北chapter2> 夢回長安"
 description: "EverMemo"
 category: tea
 comments: true
