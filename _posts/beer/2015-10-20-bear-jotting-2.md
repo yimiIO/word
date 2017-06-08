@@ -2,7 +2,7 @@
 layout: article
 title: "闪电侠的信"
 description: "EverMemo"
-category: bear
+category: beer
 comments: true
 tags: []
 image:
