@@ -10,14 +10,14 @@ image:
   teaser: tea_b.jpg
   thumb:
 ---
-> 2016-12-12
+> 2016-8 北京-西安-西宁-张掖-酒泉-敦煌-柴达木-大茶旦--德林哈 之行
 
 
 
 
 
 
-  <iframe src="http://word.98ki.com/blog/northwest2_ 夢回長安_files.htm" id="iframe" scrolling="no" onload="iframeLoad()" frameborder="0" name="iframe" width="100%"> </iframe>
+  <iframe src="http://word.98ki.com/blog/northwest2_ 夢回長安.htm" id="iframe" scrolling="no" onload="iframeLoad()" frameborder="0" name="iframe" width="100%"> </iframe>
 
 
   <script type="text/javascript" language="javascript">
