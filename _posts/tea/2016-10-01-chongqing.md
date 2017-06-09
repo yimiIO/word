@@ -7,7 +7,7 @@ comments: true
 tags: []
 image:
   feature:
-  teaser: tea_b.jpg
+  teaser: daocheng.jpg
   thumb:
 ---
 > 2016-12 北京-重庆-成都-稻城 之行
