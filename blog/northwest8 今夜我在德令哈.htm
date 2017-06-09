@@ -205,7 +205,13 @@ this[e](t,r);
                 <div class="rich_media_content " id="js_content">
 
 
-
+                  <script type="text/javascript" language="javascript">
+                  function iframeLoad()
+                  {
+                      document.getElementById("iframe").height=0;
+                      document.getElementById("iframe").height=500;
+                  }
+                  </script>
 
 
                   <audio src="http://word.98ki.com/blog/northwest8 今夜我在德令哈_files/delingha.mp3" controls="controls">  </audio>
@@ -213,13 +219,9 @@ this[e](t,r);
 <iframe id="iframe" frameborder="0" width="640" src="https://v.qq.com/iframe/player.html?vid=t03275lq1vn&tiny=0&auto=0"  onload="iframeLoad()" allowfullscreen></iframe>
 
 
-<script type="text/javascript" language="javascript">
 
-function iframeLoad()
-{
-    document.getElementById("iframe").height=0;
-    document.getElementById("iframe").height=document.getElementById("iframe").contentWindow.document.body.scrollHeight;
-}
+
+
 
 </script>
                 </div>

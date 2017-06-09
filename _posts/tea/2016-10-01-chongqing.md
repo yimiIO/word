@@ -7,7 +7,7 @@ comments: true
 tags: []
 image:
   feature:
-  teaser: daocheng.jpg
+  teaser: northwest.jpg
   thumb:
 ---
 > 2016-12 北京-重庆-成都-稻城 之行
