@@ -12,6 +12,8 @@ image:
 ---
 > 北京-**西安**-西宁-张掖-酒泉-敦煌-柴达木--德林哈 之行
 
+<audio src="http://word.98ki.com/blog/northwest2_ 夢回長安_files/qingaichangan.m4a" controls="controls">  </audio>
+
   <iframe src="http://word.98ki.com/blog/northwest2_ 夢回長安.htm" id="iframe" scrolling="no" onload="iframeLoad()" frameborder="0" name="iframe" width="100%"> </iframe>
 
 
