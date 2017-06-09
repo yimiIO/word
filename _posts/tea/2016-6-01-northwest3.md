@@ -7,7 +7,7 @@ comments: true
 tags: []
 image:
   feature:
-  teaser: tea_b.jpg
+  teaser: 3.jpg
   thumb:
 ---
 > 北京-**西安**-西宁-张掖-酒泉-敦煌-柴达木--德林哈 之行
