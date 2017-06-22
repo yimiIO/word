@@ -1,38 +1,39 @@
-document.onreadystatechange = functioin(){
+
+
+document.onreadystatechange = function () {
+
   if(document.readyState=="complete"){
-    yimiRewardCreate();
+    var dash = yimiRewardCreate();
+    dash.dsinit();
   }
 }
 
 
 
 function yimiRewardCreate() {
-	var dash = new Object;
+  var dash = new Object;
 	dash.d=null;
 	dash.flag=0;
-	dash.suffix="-"+suffix;
-	dash.extra="-"+extra;
-	dash.mainid="dash-main-id";
-	dash.imgid="dash-img-id";
 	dash.urlprefix="http://word.98ki.com";
+  alert("dsinit");
 
-	dash.dsinit = function(){
+  dash.dsinit = function(){
+
+    alert("dsinit");
 		this.flag = 0;
 		this.d = document;
-		this.mainid += this.suffix+this.extra;
-
-		this.d.getElementById(this.mainid).innerHTML = this.dshtml();
-
+    alert("dsinit");
+		this.d.getElementById("dash-main-id-8793a5").innerHTML = this.dshtml();
 		this.dscss();
 	};
 
 
 	dash.dshtml = function(){
-
+    alert("a1a");
 		var url = encodeURIComponent(window.location.href);
-
-		return "<a href=\""+ dash.urlprefix +"/yimiReward/index.htm" class=\"dash-tip\" target=\"_blank\">" +
-				"<img id=\"dash-img-id\" src=\""+ dash.urlprefix +"/yimiReward/img/yimiReward.png" alt=\"一觅打赏\" /></a>";
+    
+		return "<a href=\""+ dash.urlprefix +"/yimiReward/index.htm\" id=\"dash-tip-id\" class=\"dash-tip\" target=\"_blank\">" +
+				"<img id=\"dash-img-id\" src=\""+ dash.urlprefix +"/yimiReward/img/yimiReward.png\" alt=\"一觅打赏\" /></a>";
 	};
 
 
@@ -50,7 +51,7 @@ function yimiRewardCreate() {
 						  + ".dash-tip img{position:relative;width:100%;height:100%;}";
 		if (obj.styleSheet) obj.styleSheet.cssText = styles;
 		else obj.appendChild(document.createTextNode(styles));
-		document.getElementById(this.mainid).appendChild(obj);
+		document.getElementById("dash-main-id-8793a5").appendChild(obj);
 	};
 
 	return dash;
