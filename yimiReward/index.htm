@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>一觅打赏</title>
+
+    <link rel="stylesheet" type="text/css" href="./yimiReward_files/bootstrap.css">
+
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+
+	<script src="./yimiReward_files/jquery-1.10.2.min.js"></script>
+    <script src="./yimiReward_files/bootstrap.min.js"></script>
+<style>
+body{
+	font-family: "Microsoft YaHei","微软雅黑","黑体","宋体",Helvetica,Arial,Tahoma;
+}
+.payment_choice{
+	//font-weight: bolder;
+	float: none;
+	text-align: center;
+	min-height:450px;
+}
+.payment_choice h3{
+	margin-bottom: 10px;
+}
+.ds-dropdown{
+	position: absolute;
+	border: 2px solid #dbdbdb;
+	background-color:#ffffff;
+	z-index:999;
+}
+.ds-page-dropdown{
+	position: relative !important;
+	border: 0px ;
+}
+.ds-dropdown form{
+  width: 100%;
+  margin:0 0 0 0;
+}
+.amount_price {
+    height: 74px;
+}
+.amount_price h4 {
+    height: 40px;
+    line-height: 40px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+	margin-bottom: 0px;
+}
+.amount_price h4 span {
+    position: relative;
+    top: -2px;
+    font-size: 18px;
+}
+.amount_price p {
+    margin: 6px 0 0;
+}
+.amount_input {
+    position: relative;
+	width: 160px;
+    height: 60px;
+    margin: 30px auto 0;
+}
+.amount_input .textbox {
+    width: 100%;
+    height: 40px;
+    border: 2px solid #fcbf68;
+    border-radius: 10px;
+    text-indent: 10px;
+    font-size: 18px;
+	//font-weight: bold;
+    color: #000;
+}
+.amount_input span {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    line-height: 40px;
+    font-size: 18px;
+    color: #666;
+}
+.ds-submit-div {
+    text-align: center;
+    position: relative;
+    margin-top: 8px;
+}
+.ds-spec {
+    text-align: left;
+    margin: 30px 0 0 0;
+    font-family: Arial;
+    font-style: normal;
+    font-size: 14px;
+    color: #727272;
+	word-wrap: break-word;
+}
+.copyright_content {
+    text-align: center;
+	margin-top: 0px;
+}
+.ds-submit-div input{
+  width:100px;
+  height:40px;
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  font-size: 0px;
+  background-color: #ebebeb;
+  padding: 2px 10px 2px 8px;
+  border: solid #a8a8a8 0px;
+  text-decoration: none;
+  margin-left: 16px;
+}
+.ds-submit-alipay{
+	background:url('./img/alipay_logo.png') no-repeat center;
+	background-size: 96px;
+}
+.ds-submit-qqpay{
+	background:url('./img/qqpay_logo.png') no-repeat center;
+	background-size: 100px;
+}
+.ds-submit-wxpay{
+	background:url('./img/wxpay_logo.png') no-repeat center;
+	background-size: 100px;
+}
+.ds-submit-div input:hover{
+  background-color: #c2c2c2;
+  text-decoration: none;
+}
+
+.copyright_info {
+    float: left;
+    padding: 0px 0px 35px 0px;
+    margin: 0px 0px 0px 0px;
+    height: 120px;
+    width: 100%;
+    color: #999;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    text-align:center;
+}
+.copyright_info a {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #999;
+    text-align: right;
+}
+.margin-top40{
+	margin-top:40px;
+}
+.hidden-cell{
+	display:none;
+}
+</style><style>@media print {#ghostery-purple-box {display:none !important}}</style></head>
+
+
+<body>
+
+<div class="container">
+<div class="row payment_choice">
+
+<div class="col-xs-12 col-sm-8" style="margin:0 auto;float:none;">
+
+<br>
+<h3>一觅打赏</h3>
+<hr>
+
+
+<div id="ds-dropdown-id" class="ds-dropdown ds-page-dropdown">
+<!--
+        <div class="ds-pay-fee">
+			<div class="amount_price">
+				<h4>6.6<span>元</span></h4>
+				<p><a href="javascript:;" onclick="amount_open()">其他金额</a></p>
+			</div>
+			<h5 class="amount_input" style="display:none;"><input id="fee-input-id" name="fee" size="5" placeholder="打赏金额" type="number" step="any" class="textbox" value="6.6" min="0.1"><span>元</span></h5>
+        </div>
+        <div style="display:none;">
+            <input name="referer" value="http://word.98ki.com/bear-jotting-110/">
+            <input name="tip_key" value="8793a3">
+        </div>
+      -->
+        <div class="ds-submit-div">
+            <input id="dash-submit-wxpay" class="ds-submit ds-submit-wxpay" name="method" type="submit" value="wxpay">
+            <input id="dash-submit-alipay" class="ds-submit ds-submit-alipay" name="method" type="submit" value="alipay">
+            <input id="dash-submit-qqpay" class="ds-submit ds-submit-qqpay" name="method" type="submit" value="qqpay">
+
+        </div>
+        <script type="text/javascript">
+$(document).ready(function(){
+  $("#dash-submit-wxpay").click(function(){
+  $("#div-qq-pay").hide();
+  $("#div-ali-pay").hide();
+  $("#div-wx-pay").show();
+  });
+  $("#dash-submit-qqpay").click(function(){
+  $("#div-qq-pay").show();
+  $("#div-ali-pay").hide();
+  $("#div-wx-pay").hide();
+  });
+  $("#dash-submit-alipay").click(function(){
+  $("#div-qq-pay").hide();
+  $("#div-ali-pay").show();
+  $("#div-wx-pay").hide();
+  });
+});
+</script>
+        <br/>
+
+        <div id="div-wx-pay">
+        	<img alt="微信扫码支付" src="./img/wxpay_qrcode.png" style="width:150px;height:150px;"/>
+        	<div class="margin-top40"></div>
+        	<div style="width:100%">
+        	<div style="margin-top:10px;">使用微信扫码，或长按二维码，点击“识别图中二维码”。</div>
+        	<!--<div style="margin-top:10px;">正在打赏的<a target="_blank" href="#">原文地址</a>。</div>-->
+        	<div style="margin-top:10px;color:red;">注：为了方便支付，尽量选择当前App ，长按识别二维码。</div>
+        </div>
+        </div>
+        <div id="div-qq-pay" hidden="hidden">
+        	<img alt="qq扫码支付" src="./img/qqpay_qrcode.png" style="width:150px;height:150px;"/>
+        	<div class="margin-top40"></div>
+        	<div style="width:100%">
+        	<div style="margin-top:10px;">使用qq扫码，或长按二维码，点击“识别图中二维码”。</div>
+        	<!--<div style="margin-top:10px;">正在打赏的<a target="_blank" href="#">原文地址</a>。</div>-->
+        	<div style="margin-top:10px;color:red;">注：为了方便支付，尽量选择当前App ，长按识别二维码。</div>
+        	</div>
+        </div>
+        <div id="div-ali-pay" hidden="hidden">
+        	<img alt="支付宝扫码支付" src="./img/alipay_qrcode.png" style="width:150px;height:150px;"/>
+        	<div class="margin-top40"></div>
+        	<div style="width:100%">
+        	<div style="margin-top:10px;">使用支付宝扫码，或长按二维码，点击“识别图中二维码”。</div>
+        	<!--<div style="margin-top:10px;">正在打赏的<a target="_blank" href="#">原文地址</a>。</div>-->
+        	<div style="margin-top:10px;color:red;">注：为了方便支付，尽量选择当前App ，长按识别二维码。</div>
+        	</div>
+        </div>
+        <br/>
+        <div class="more-info text-left">
+        	<h5>了解更多:</h5>
+        	<span>
+        	1.<a href="https://github.com/98ki/yimiReward">什么是一觅打赏？ </a>
+        	<br/>
+        	2.<a href="https://github.com/98ki/yimiReward">我也想使用一觅打赏。</a>
+        	</span>
+        </div>
+
+</div><!-- ds-dropdown -->
+
+</div><!-- col -->
+</div><!-- end payment_choice -->
+</div><!-- end container -->
+
+<div class="margin-top40"></div>
+
+<!-- copyright -->
+<div class="container foot copyright_info" id="footer">
+	<div class="row">
+	Copyright © 2017 <a href="http://www.98ki.com/">一觅</a> 豫ICP备14019584	</div>
+</div>
+
+<script type="text/javascript">
+function amount_open(){
+	jQuery(".amount_input").show();
+	jQuery(".amount_price").hide();
+	jQuery("#fee-input-id").val('');
+
+}
+</script>
+
+<!-- stat code -->
+<!-- end stat code -->
+
+
+
+</body></html>
