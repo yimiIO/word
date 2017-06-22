@@ -15,23 +15,19 @@ function yimiRewardCreate() {
 	dash.d=null;
 	dash.flag=0;
 	dash.urlprefix="http://word.98ki.com";
-  alert("dsinit");
 
   dash.dsinit = function(){
 
-    alert("dsinit");
 		this.flag = 0;
 		this.d = document;
-    alert("dsinit");
 		this.d.getElementById("dash-main-id-8793a5").innerHTML = this.dshtml();
 		this.dscss();
 	};
 
 
 	dash.dshtml = function(){
-    alert("a1a");
 		var url = encodeURIComponent(window.location.href);
-    
+
 		return "<a href=\""+ dash.urlprefix +"/yimiReward/index.htm\" id=\"dash-tip-id\" class=\"dash-tip\" target=\"_blank\">" +
 				"<img id=\"dash-img-id\" src=\""+ dash.urlprefix +"/yimiReward/img/yimiReward.png\" alt=\"一觅打赏\" /></a>";
 	};
