@@ -45,7 +45,7 @@ function yimiRewardCreate() {
 						  + ".dash-main-5{position:relative;width:8px;height:8px;}"
 						  + ".dash-tip img{position:relative;width:100%;height:100%;}"
               + "#rewardButton{border:1px solid #e91e63;width:200px;height:35px;background: #e91e63;font-size: 20px;color:#f2f2f2;outline:none;border-radius:20px 20px 20px 20px;}"
-              + "#rewardButton:active {top:1px;left: 1px;position:relative;background: #d81b60;}";
+              + "#rewardButton:active {top:1px;left: 1px;position:relative;background: #d81b60;outline:none;}";
 		if (obj.styleSheet) obj.styleSheet.cssText = styles;
 		else obj.appendChild(document.createTextNode(styles));
 		document.getElementById("dash-main-id-8793a5").appendChild(obj);
