@@ -27,10 +27,9 @@ function yimiRewardCreate() {
 
 	dash.dshtml = function(){
 		var url = encodeURIComponent(window.location.href);
+    return "<button id=\"rewardButton\" onclick=\"location.href='http://word.98ki.com/yimiReward/index.htm'\" >一觅打赏</button>";
 
-		return "<a href=\""+ dash.urlprefix +"/yimiReward/index.htm\" id=\"dash-tip-id\" class=\"dash-tip\" target=\"_blank\">" +
-				"<img id=\"dash-img-id\" src=\""+ dash.urlprefix +"/yimiReward/img/yimiReward.png\" alt=\"一觅打赏\" /></a>";
-	};
+		};
 
 
 
@@ -44,7 +43,9 @@ function yimiRewardCreate() {
 						  + ".dash-main-3{position:relative;width:32px;height:32px;}"
 						  + ".dash-main-4{position:relative;width:16px;height:16px;}"
 						  + ".dash-main-5{position:relative;width:8px;height:8px;}"
-						  + ".dash-tip img{position:relative;width:100%;height:100%;}";
+						  + ".dash-tip img{position:relative;width:100%;height:100%;}"
+              + "#rewardButton{border:1px solid #e91e63;width:200px;height:35px;background: #e91e63;font-size: 20px;color:#f2f2f2;outline:none;border-radius:20px 20px 20px 20px;}"
+              + "#rewardButton:active {top:1px;left: 1px;position:relative;background: #db1b60;}";
 		if (obj.styleSheet) obj.styleSheet.cssText = styles;
 		else obj.appendChild(document.createTextNode(styles));
 		document.getElementById("dash-main-id-8793a5").appendChild(obj);
