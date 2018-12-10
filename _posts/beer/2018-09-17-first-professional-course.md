@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "《职业经理人的第一课》读书笔记"
+title: "《High Output Manager》读书笔记"
 description: "EverMemo"
 category: beer
 comments: true
@@ -10,8 +10,6 @@ image:
   teaser: ice-cream_b.jpg
   thumb:
 ---
-
-# 指标
 
 管理的黑箱理论，设定指标，关注指标配对。比如存货和销售量，程序健壮性和交付日期。
 
