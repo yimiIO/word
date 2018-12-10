@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "心理咨询师"            
+title: "心理学派"            
 description: "EverMemo"            
 category: ice-cream
 comments: true
