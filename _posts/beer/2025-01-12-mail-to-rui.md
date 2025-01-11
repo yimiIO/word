@@ -3,6 +3,7 @@ layout: article
 title: "王而山"
 description: "EverMemo"
 category: beer
+date: 2025-01-12 12:00:00 +0000
 comments: true
 tags: []
 image:
