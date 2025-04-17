@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>时间胶囊</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .capsule-container {
+      overflow: hidden;
+      width: 100vw;
+      height: 100vh;
+      position: relative;
+    }
+    .slide {
+      width: 100vw;
+      height: 100vh;
+      padding: 60px 30px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      scroll-snap-align: start;
+    }
+    .slider-wrapper {
+      display: flex;
+      flex-direction: column;
+      scroll-snap-type: y mandatory;
+      overflow-y: scroll;
+      height: 100vh;
+    }
+    .slide h2 {
+      font-size: 22px;
+      color: #e77390;
+      margin-bottom: 20px;
+    }
+    .slide p {
+      font-size: 17px;
+      line-height: 1.8;
+      max-width: 640px;
+    }
+    .source {
+      font-size: 14px;
+      margin-top: 20px;
+      color: #999;
+    }
+    audio { display: none; }
+  </style>
+</head>
+<body>
+  <audio autoplay loop>
+    <source src="audio/forever_love.mp3" type="audio/mpeg" />
+  </audio>
+  <div class="capsule-container">
+    <div class="slider-wrapper">
+
+      <div class="slide" style="background:#fffafc;">
+        <h2>我们是礼物，短暂也值得纪念</h2>
+        <p>我们像礼物一样出现在对方的生命中，已经非常美好了。但你要知道，大多数礼物只能重要一阵子。不过那一阵子的光，足以点亮后来很多的夜晚。你出现在我生命里那一瞬，就是那道光。</p>
+        <div class="source">— 回信《2025.1.11》</div>
+      </div>
+
+      <div class="slide" style="background:#fff;">
+        <h2>我愿意背你，去全世界的浪头</h2>
+        <p>我想和你去到这个世界的每一个地方。你的行李多我就帮你拿着，你觉得累，我就把你也背在身上。行李可以重，但你不能掉。世界很大，我很普通，但爱你这件事，我可以做到特别。</p>
+        <div class="source">— 除夕夜写于巴厘岛</div>
+      </div>
+
+      <div class="slide" style="background:#fffaf5;">
+        <h2>你让我开始写信，也开始面对我自己</h2>
+        <p>你让我第一次真心觉得，自己的感受和选择值得被认真对待。我在你面前总是局促，拥抱你的时候会控制不了呼吸，牵手时手心出汗。一个自称经验丰富的32岁男人，在你面前像个学生。</p>
+        <div class="source">— 第一封信《关于拥抱》</div>
+      </div>
+
+      <div class="slide" style="background:#fef6f7;">
+        <h2>我怕一旦情绪有出口，就收不住了</h2>
+        <p>不是我多难过奶奶的离去，而是难过仿佛没有很多人为她真正难过。我怕我一旦开始释放情绪，就止不住。我怕我以为我可以控制情绪，只是我以为。我怕这一切的情绪，终将无人知晓。</p>
+        <div class="source">— 第四封信《关于生死离别》</div>
+      </div>
+
+      <div class="slide" style="background:#fff;">
+        <h2>我将最软弱的一面留给你</h2>
+        <p>我不喜欢承诺，也害怕异地。但我还是说了爱你，因为你让我安心。你会回应我每一次晚安，每一次确认。我知道这可能会辛苦，但也知道，如果是和你一起，我愿意试一试。</p>
+        <div class="source">— 回信《2025.1.19》</div>
+      </div>
+
+      <div class="slide" style="background:#fefefe;">
+        <h2>越是幸福的事物，越害怕失去</h2>
+        <p>我曾想纹一个永远不会厌倦的图案，但迟迟没动手。小时候分离焦虑让我害怕分别，长大后我学会了感受最纯粹的孤独。但我依然相信幸福值得一试，哪怕冒一点点险。</p>
+        <div class="source">— 回信《关于孤独》</div>
+      </div>
+
+      <div class="slide" style="background:#fff7f9;">
+        <h2>但爱是永远</h2>
+        <p>你说：“我他妈的何必呢”，可我想说，歌词是：但爱是永远。这不是懦夫行为。我不会否定自己曾经的努力，那些经历和你交织后，才成了我现在愿意一直牵手走下去的底气。</p>
+        <div class="source">— 回信《2025.1.31》</div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>

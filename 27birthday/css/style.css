@@ -1,0 +1,54 @@
+
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  background: #fff4f4;
+  color: #333;
+  text-align: center;
+  line-height: 1.6;
+}
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 30px;
+}
+.cover-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.next-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #e77390;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 30px;
+}
+.birthday h1 {
+  font-size: 32px;
+  color: #e77390;
+}
+.birthday p {
+  font-size: 20px;
+}
+.timeline {
+  max-width: 100%;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+
+.cover {
+  background-image: url('../images/cover_bg.png');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
